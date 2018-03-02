@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/login', ['uses'=>'Auth\loginController@index']);
+Route::post('/login/post', ['uses'=>'Auth\loginController@showData']);
