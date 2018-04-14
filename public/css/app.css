@@ -1,6 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-laravel {
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}*/
+
+.container{
+    padding-top: 40px;
 }
 
+.quiz-image-select{
+    transition: all ease-in 0.2s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.quiz-image-select.zohan:hover{
+    height: 1500px;
+}
+
+.quiz-image-select:hover{
+    height: 1200px;
+}

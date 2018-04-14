@@ -5,9 +5,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+/*require('./bootstrap');*/
 
-require('jquery');
+/*require('jquery');*/
 
 $.ajaxSetup({
     headers: {
@@ -15,6 +15,8 @@ $.ajaxSetup({
     }
 });
 
-$('#zohan').on('hover', function(event){
-    $('html,body').animate({scrollTop: $(this).offset().top}, 'slow');
+$('#zohan').hover(function(event){
+    let bottom = $(this).offset().top + 1250;
+    console.log(bottom);
+    $('html,body').animate({scrollTop: bottom}, 'slow');
 });

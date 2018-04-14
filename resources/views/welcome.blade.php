@@ -67,12 +67,12 @@
     <body>
             <div class="content">
                 <div class="title m-b-md">
-                   Support
+                   Zohan
                 </div>
 
                 <div class="links">
                     <a href="/login">Login</a>
-                    <a href="#">Register</a>
+                    <a href="/register">Register</a>
                 </div>
             </div>
         </div>

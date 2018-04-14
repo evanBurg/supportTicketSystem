@@ -10,8 +10,8 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.copy('resources/assets/js/bootstrap', 'public/js/bootstrap')
-mix.copy('resources/assets/css/bootstrap', 'public/css/bootstrap')
+mix.copy('resources/assets/js/bootstrap', 'public/js/bootstrap');
+mix.copy('resources/assets/css/bootstrap', 'public/css/bootstrap');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');

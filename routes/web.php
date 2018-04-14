@@ -17,3 +17,10 @@ Route::get('/', function () {
 
 Route::get('/login', ['uses'=>'Auth\loginController@index']);
 Route::post('/login/post', ['uses'=>'Auth\loginController@showData']);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('quiz/{quiz_guy}', ['uses' => 'QuizController@index']);
